@@ -11,4 +11,6 @@ pipeline:
       - flake8 dronedemo
       - mkdir -p coverage
       - nosetests -v tests/
+      
+      
 
